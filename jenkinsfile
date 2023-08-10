@@ -25,7 +25,7 @@ pipeline {
                 }
                 stage('Test On Master') {
                     agent {
-                        label "master"
+                        label "Built_In Node"
                     }
                     steps {
 						echo "Task1 on Master"
